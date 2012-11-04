@@ -1,0 +1,18 @@
+<h2>{{page.title}}</h2>
+
+{% if page.contextMenu %}
+
+
+
+{% endif %}
+
+<p id="page-description">
+	
+	{% if page.image %}
+		<img class="right" src="images/{{page.image}}" />
+	{% endif %}
+
+	{{ page.description }}
+</p>
+
+{{content}}

@@ -1,0 +1,27 @@
+{% comment %}
+	The first two lines create array used to construct the global menu. The first array will output the name, the second is the page that the global menu should link too.
+{% endcomment %}
+
+{% assign linkNames = "index|design|development|content|other" | split: "|" %}
+
+{% for link in linkNames %}
+	<li {% if link == page.context %} class="active" {% endif %} >
+		<a href="{{ link }}.html">
+
+			{% comment %}
+				The first two lines create array used to construct the global menu. The first array will output the name, the second is the page that the global menu should link too.
+			{% endcomment %}
+
+			{% if link == 'index' %}
+
+				UX Home
+
+			{% else %}
+
+				{{ link | capitalize }}
+
+			{% endif %}
+
+		</a>
+  	</li>
+{% endfor %}

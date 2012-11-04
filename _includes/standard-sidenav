@@ -1,0 +1,47 @@
+<nav id="ux-side-nav">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Tier 1 Item</a></li>
+		<li><a href="#" class="ux-expandable">2 Teir Navigation</a>
+			<ul>
+				<li><a href="#">Tier 1 Item</a></li>
+				<li><a href="#">Tier 1 Item</a></li>
+				<li><a href="#">Tier 1 Item</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#" class="ux-expandable expanded">3 Tier Navigation</a>
+			<ul>
+				<li><a href="#">Tier 2 Item</a></li>
+				<li><a href="#">Tier 2 Item</a></li>
+				<li>
+					<a href="#" class="ux-expandable expanded">2 Tier Navigation</a>
+					<ul>
+						<li><a href="#">Tier 3 Item</a></li>
+						<li><a href="#" class="selected">Tier 3 Item</a></li>
+						<li><a href="#">Tier 3 Item</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Tier 2 Item</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Tier 1 Item</a></li>
+		<li>
+			<a href="#" class="ux-expandable">3 Tier Navigation</a>
+			<ul>
+				<li><a href="#">Tier 2 Item</a></li>
+				<li><a href="#">Tier 2 Item</a></li>
+				<li>
+					<a href="#">2 Tier Navigation</a>
+					<ul>
+						<li><a href="#">Tier 1 Item</a></li>
+						<li><a href="#">Tier 1 Item</a></li>
+						<li><a href="#">Tier 1 Item</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Tier 2 Item</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Tier 1 Item</a></li>
+	</ul>
+</nav>
